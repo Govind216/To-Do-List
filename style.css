@@ -1,0 +1,35 @@
+.container {
+    background-color: antiquewhite;
+    
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  
+
+  .bod {
+    background-color: antiquewhite;
+    animation-name: example;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes example {
+    0% {
+      background-color: antiquewhite;
+    }
+
+   
+
+    50% {
+      background-color: aliceblue;
+    }
+
+    100%{
+        background-color: antiquewhite;
+    }
+
+   
+
+  }
